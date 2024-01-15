@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.destinations-search-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1150px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-search-container {
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  color: #252627;
+  margin-bottom: 35px;
+  margin-top: 50px;
+  margin-left: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 98px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  border-radius: 10px;
+  padding-top: 10px;
+  background-color: #f1f5f9;
+  padding-left: 18px;
+  padding-bottom: 10px;
+  padding-right: 18px;
+  margin-left: 20px;
+}
+
+.search-input {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #0f172a;
+  background-color: #f1f5f9;
+}
+
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.destinations-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-list {
+    justify-content: flex-start;
+  }
+}
